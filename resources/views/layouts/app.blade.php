@@ -22,7 +22,7 @@
             <ul class="navbar-nav ml-auto">
                 @if (Auth::guest())
                   <li class="nav-item active">
-                      <a class="nav-link" href="{{ url('/login') }}">Acceder <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="{{ url('/') }}">Acceder <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
                       <a class="nav-link" href="{{ url('/register') }}">Crear cuenta</a>
