@@ -5,11 +5,13 @@
 @endsection
 
 @section('content-master')
+<style>.fondo{ background-image: url(/img/login.jpeg);}</style>
 <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark indigo">
+    <nav class="navbar navbar-expand-lg navbar-dark black blue-gradient">
 
         <!-- Navbar brand -->
-        <a class="navbar-brand" href="#">Auditoria</a>
+
+        <a class="navbar-brand" href="#">Auditor</a>
 
         <!-- Collapse button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -50,4 +52,3 @@
 @section('js-master')
   @yield('js')
 @endsection
-
